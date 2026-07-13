@@ -15,3 +15,5 @@ list.append("parrot");
 list.append("hamster");
 list.append("snake");
 list.append("turtle");
+
+// ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> null
