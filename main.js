@@ -2,7 +2,7 @@ const value = "hello"
 const index = "2"
 const list = []
 
-class node {
+class Node {
     constructor(data, next = null) {
         this.data = data;
         this.next = next;
@@ -16,10 +16,13 @@ class LinkedList {
     }
 }
 
+const node1 = new Node(1);
+console.log(node1)
 
-list.append("dog");
-list.append("cat");
-list.append("parrot");
-list.append("hamster");
-list.append("snake");
-list.append("turtle");
+
+// list.append("dog");
+// list.append("cat");
+// list.append("parrot");
+// list.append("hamster");
+// list.append("snake");
+// list.append("turtle");
