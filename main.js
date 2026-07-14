@@ -1,19 +1,6 @@
-// list that's already set up
-console.log(list.toString());
-//=> "( 1 ) -> ( 2 ) -> ( 3 ) -> null"
+const node = null
+const nextNode = null
 
-list.insertAt(1, 10, 11)
-console.log(list.toString());
-//=> "( 1 ) -> ( 10 ) -> ( 11 ) -> ( 2 ) -> ( 3 ) -> null"
+function linkedList() {
 
-// example uses class syntax - adjust as necessary
-const list = new LinkedList();
-
-list.append("dog");
-list.append("cat");
-list.append("parrot");
-list.append("hamster");
-list.append("snake");
-list.append("turtle");
-
-// ( dog ) -> ( cat ) -> ( parrot ) -> ( hamster ) -> ( snake ) -> ( turtle ) -> null
+}
