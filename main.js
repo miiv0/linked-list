@@ -14,7 +14,13 @@ class LinkedList {
         this.head = null;
         this.size = 0;
     }
+
+    append(value) {
+
+    }
 }
+
+
 
 const node1 = new Node(1);
 console.log(node1)
