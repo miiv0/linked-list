@@ -1,7 +1,3 @@
-const value = "hello"
-const index = "2"
-const list = []
-
 class Node {
     constructor(data, next = null) {
         this.data = data;
@@ -22,10 +18,11 @@ class LinkedList {
 
 }
 
+const list = new LinkedList();
 
-const node1 = new Node(1);
-console.log(node1)
-
+list.insertFirst(1)
+list.insertFirst(2)
+console.log(list)
 
 // list.append("dog");
 // list.append("cat");
