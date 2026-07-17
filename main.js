@@ -15,20 +15,13 @@ class LinkedList {
         this.size = 0;
     }
 
-    append(value) {
-        const newNode = new Node(value);
-        if (this.head === null) {
-            this.head = newNode;
-        } else {
-            let current = this.head;
-            while (current.next !== null) {
-                current = current.next;
-            }
-            current.next = newNode;
-        }
-        this.size++;
+    insertFirst(data) {
+        this.head = new Node(data, this.head):
     }
+
+
 }
+
 
 
 
