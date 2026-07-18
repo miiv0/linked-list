@@ -21,7 +21,6 @@ class LinkedList {
         let current;
     }
 
-
     printList(data) {
         let current = this.head;
 
@@ -29,9 +28,7 @@ class LinkedList {
             console.log(current.data);
             current = current.next;
         }
-
     }
-
 }
 
 const list = new LinkedList();
@@ -45,10 +42,3 @@ list.insertFirst(5)
 
 console.log(list)
 list.printList()
-
-// list.append("dog");
-// list.append("cat");
-// list.append("parrot");
-// list.append("hamster");
-// list.append("snake");
-// list.append("turtle");
